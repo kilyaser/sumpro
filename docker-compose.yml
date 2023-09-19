@@ -2,7 +2,8 @@ version: '2.1'
 
 services:
   summapropisyu:
-    image: summa-propisyu:0.0.1-SNAPSHOT
+    image: sumpro:0.0.1-SNAPSHOT
+    container_name: summa-propisyu
     ports:
-      - "8080:8080"
+      - "8081:8081"
 
