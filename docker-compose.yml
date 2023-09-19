@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  summapropisyu:
+    image: summa-propisyu:0.0.1-SNAPSHOT
+    ports:
+      - "8080:8080"
+
